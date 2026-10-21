@@ -28,12 +28,23 @@ Read-only: the database is opened with mode=ro and never written.
 import collections
 import hashlib
 import json
+import os
 import pathlib
 import sqlite3
 import sys
 
-DB = "/home/demo/.local/share/opencode/opencode.db"
+#: The OpenCode/Totem session database. OPENCODE_DB points somewhere else.
+DB = os.environ.get("OPENCODE_DB") or str(pathlib.Path.home() / ".local/share/opencode/opencode.db")
 OUT = pathlib.Path(__file__).with_name("crossmodel-raw.json")
+
+
+def shown(path):
+    """A path as written into the output: home becomes ~, so a re-run never
+    records whose machine it ran on."""
+    p, home = str(path), str(pathlib.Path.home())
+    return "~" + p[len(home):] if p == home or p.startswith(home + "/") else p
+
+
 LOOP_THRESHOLD = 3
 
 
@@ -152,7 +163,7 @@ def main():
     con.close()
 
     result = {
-        "source": DB,
+        "source": shown(DB),
         "loop_threshold": LOOP_THRESHOLD,
         "sessions_total": len(sessions),
         "models": dict(sorted(per_model.items(),

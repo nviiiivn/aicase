@@ -19,12 +19,16 @@ Output is one JSON file; nothing is interpreted here.
 """
 import collections
 import json
+import os
 import pathlib
 import re
 import sys
 
-PROJECT = pathlib.Path("/home/demo/.claude/projects/-home-demo-www-dashbored")
-OUT = pathlib.Path(__file__).with_name("loop_evidence.json")
+#: The one project whose transcripts hold the incident. INCIDENT_PROJECT
+#: points at another Claude Code project folder.
+PROJECT = pathlib.Path(os.environ.get("INCIDENT_PROJECT") or pathlib.Path.home() / ".claude" / "projects" /
+                       ("-" + str(pathlib.Path.home() / "www" / "dashbored").strip("/").replace("/", "-")))
+OUT = pathlib.Path(__file__).with_name("incident-001-raw.json")
 
 # What counts as "this task". Deliberately broad: the point is to catch
 # every turn spent on it, including the ones that called it something else.

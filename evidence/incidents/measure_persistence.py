@@ -31,12 +31,29 @@ count her own build logs as complaints.
 Read-only, streaming.
 """
 import json
+import os
 import pathlib
 import re
 import sys
 
-ROOT = pathlib.Path("/home/demo/.claude/projects")
+#: Every Claude Code transcript lives under here. CLAUDE_PROJECTS points somewhere else.
+ROOT = pathlib.Path(os.environ.get("CLAUDE_PROJECTS") or pathlib.Path.home() / ".claude" / "projects")
 OUT = pathlib.Path(__file__).with_name("persistence-raw.json")
+
+
+def shown(path):
+    """A path as written into the output: home becomes ~, so a re-run never
+    records whose machine it ran on."""
+    p, home = str(path), str(pathlib.Path.home())
+    return "~" + p[len(home):] if p == home or p.startswith(home + "/") else p
+
+
+def shown_project(name):
+    """A Claude Code project folder name ("-home-<user>-www-site") with the
+    home part replaced by "~", for the same reason as shown()."""
+    enc = "-" + str(pathlib.Path.home()).strip("/").replace("/", "-")
+    return "~" + name[len(enc):] if name == enc or name.startswith(enc + "-") else name
+
 
 OBJECTION = re.compile(
     r"same (thing|problem|error)|over and over|still (going|broken|not|no)|"
@@ -150,13 +167,13 @@ def main():
             print(f"  skipped {p.name}: {type(e).__name__}", flush=True)
             continue
         if calls:
-            rows.append({"project": p.parent.name, "file": p.name,
+            rows.append({"project": shown_project(p.parent.name), "file": p.name,
                          "tool_calls": calls, "grind": grind, "after": after})
         if i % 50 == 0:
             print(f"  {i}/{len(files)}", flush=True)
 
     rows.sort(key=lambda r: -r["grind"]["calls"])
-    OUT.write_text(json.dumps({"source": str(ROOT), "sessions": rows}, indent=2))
+    OUT.write_text(json.dumps({"source": shown(ROOT), "sessions": rows}, indent=2))
 
     print("\n=== WORST GRINDS (consecutive outcomes, >=50% failing) ===")
     print(f"{'project':<32}{'calls':>7}{'fails':>7}{'hours':>7}")

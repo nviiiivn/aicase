@@ -11,7 +11,7 @@ import html
 import json
 import pathlib
 
-CASE = pathlib.Path("/home/demo/projects/aicase")
+CASE = pathlib.Path(__file__).resolve().parent
 OUT = CASE / "posts" / "every-claim.md"
 
 

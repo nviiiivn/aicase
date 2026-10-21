@@ -1,1 +1,23 @@
 __pycache__/
+*.pyc
+
+# secrets and local env never go in git
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# session logs and databases stay on your machine; only the counted results
+# (evidence/**/*-raw.json) are published
+*.jsonl
+*.db
+*.sqlite
+data/
+
+# tooling
+.venv/
+venv/
+node_modules/
+.playwright-mcp/
+.DS_Store

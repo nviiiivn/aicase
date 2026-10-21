@@ -25,12 +25,30 @@ is 112 MB, so nothing is loaded whole.
 import collections
 import hashlib
 import json
+import os
 import pathlib
 import sys
 
-ROOT = pathlib.Path("/home/demo/.claude/projects")
+#: Every Claude Code transcript lives under here. CLAUDE_PROJECTS points somewhere else.
+ROOT = pathlib.Path(os.environ.get("CLAUDE_PROJECTS") or pathlib.Path.home() / ".claude" / "projects")
 OUT = pathlib.Path(__file__).with_name("claude-projects-raw.json")
+
+
+def shown(path):
+    """A path as written into the output: home becomes ~, so a re-run never
+    records whose machine it ran on."""
+    p, home = str(path), str(pathlib.Path.home())
+    return "~" + p[len(home):] if p == home or p.startswith(home + "/") else p
+
+
 LOOP_THRESHOLD = 3
+
+
+def shown_project(name):
+    """A Claude Code project folder name ("-home-<user>-www-site") with the
+    home part replaced by "~", for the same reason as shown()."""
+    enc = "-" + str(pathlib.Path.home()).strip("/").replace("/", "-")
+    return "~" + name[len(enc):] if name == enc or name.startswith(enc + "-") else name
 
 
 def blocks(msg):
@@ -88,7 +106,7 @@ def main():
     files = sorted(ROOT.glob("*/*.jsonl"))
     print(f"scanning {len(files)} transcripts", flush=True)
     for i, path in enumerate(files, 1):
-        agg = per_project[path.parent.name]
+        agg = per_project[shown_project(path.parent.name)]
         try:
             total, failed, repeats, worst, example = scan(path)
         except Exception as e:
@@ -107,7 +125,7 @@ def main():
             print(f"  {i}/{len(files)}", flush=True)
 
     result = {
-        "source": str(ROOT), "loop_threshold": LOOP_THRESHOLD,
+        "source": shown(ROOT), "loop_threshold": LOOP_THRESHOLD,
         "transcripts": len(files),
         "projects": dict(sorted(per_project.items(),
                                 key=lambda kv: -kv[1]["tool_calls"])),

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Activate the alola-case theme and publish the evidence posts.
+"""Activate the site theme and publish the evidence posts to Ghost.
 
 Ghost's Admin API wants a session cookie for password auth, so this signs
 in once and reuses it. Posts are sent with ?source=html, because Ghost 5
@@ -11,21 +11,31 @@ Idempotent: a post whose slug already exists is updated in place rather
 than duplicated, so re-running after an edit is safe.
 """
 import json
+import os
 import pathlib
 import re
 import urllib.error
 import urllib.request
 
-BASE = "http://127.0.0.1:2368"
-VAULT = pathlib.Path("/home/demo/vault/fuai-ghost.md")
-CASE = pathlib.Path("/home/demo/projects/aicase")
+# Settings come from the environment (see .env.example), never from this file.
+BASE = os.environ.get("GHOST_URL", "http://127.0.0.1:2368").rstrip("/")
+SITE = os.environ.get("GHOST_SITE", "fuai.alola.lol")   # public host Ghost serves
+THEME = os.environ.get("GHOST_THEME", "alola-case")     # activated if installed
+CASE = pathlib.Path(__file__).resolve().parent
 
-# Both read from the vault, not hard-coded: the login was changed once
-# already and a stale address here fails as a 404 "no user with that
-# email", which reads like a broken endpoint rather than wrong creds.
-_v = VAULT.read_text()
-email = re.search(r"email:\s*(\S+)", _v).group(1)
-password = re.search(r"password:\s*(\S+)", _v).group(1)
+# The login is read at run time, not hard-coded: it was changed once already
+# and a stale address here fails as a 404 "no user with that email", which
+# reads like a broken endpoint rather than wrong creds. Either set
+# GHOST_EMAIL + GHOST_PASSWORD, or point GHOST_CREDS_FILE at a private file
+# holding "email: ..." and "password: ..." lines.
+email = os.environ.get("GHOST_EMAIL")
+password = os.environ.get("GHOST_PASSWORD")
+if not (email and password) and os.environ.get("GHOST_CREDS_FILE"):
+    _v = pathlib.Path(os.environ["GHOST_CREDS_FILE"]).expanduser().read_text()
+    email = email or re.search(r"email:\s*(\S+)", _v).group(1)
+    password = password or re.search(r"password:\s*(\S+)", _v).group(1)
+if not (email and password):
+    raise SystemExit("set GHOST_EMAIL and GHOST_PASSWORD, or GHOST_CREDS_FILE (see .env.example)")
 _cookie = None
 
 
@@ -38,8 +48,8 @@ def call(path, data=None, method=None, source_html=False, quiet404=False,
                                  method=method or ("POST" if body else "GET"))
     req.add_header("Content-Type", "application/json")
     req.add_header("Accept-Version", "v5.0")
-    req.add_header("Origin", "https://fuai.alola.lol")
-    req.add_header("Host", "fuai.alola.lol")
+    req.add_header("Origin", f"https://{SITE}")
+    req.add_header("Host", SITE)
     # Ghost issues its admin session cookie with Secure+SameSite=None, and
     # will not set it at all unless it believes the connection is https.
     # Over plain loopback that means sign-in returns 201 with no cookie and
@@ -65,7 +75,7 @@ req = urllib.request.Request(
     data=json.dumps({"username": email, "password": password}).encode(),
     method="POST")
 for k, v in (("Content-Type", "application/json"), ("Accept-Version", "v5.0"),
-             ("Origin", "https://fuai.alola.lol"), ("Host", "fuai.alola.lol"),
+             ("Origin", f"https://{SITE}"), ("Host", SITE),
              ("X-Forwarded-Proto", "https")):
     req.add_header(k, v)
 with urllib.request.urlopen(req, timeout=120) as r:
@@ -80,7 +90,7 @@ print("signed in" if _cookie else "NO COOKIE", flush=True)
 # stop the publish; the error message points at authentication and the
 # cause is not authentication.
 try:
-    out = call("/ghost/api/admin/themes/alola-case/activate/", method="PUT",
+    out = call(f"/ghost/api/admin/themes/{THEME}/activate/", method="PUT",
                raw_body=b"")
     print("theme active:",
           [t["name"] for t in out.get("themes", []) if t.get("active")]
