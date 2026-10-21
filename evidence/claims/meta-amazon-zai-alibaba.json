@@ -1,0 +1,282 @@
+{
+  "collected_by": "Claude (evidence-collection subagent, court-reporter mode)",
+  "collected_at": "2026-09-23T00:00:00Z",
+  "claims": [
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Q Developer — Pro Tier ($19/mo. per user)",
+      "claim_verbatim": "Pro Tier: Expanded limits $19/mo. per user",
+      "url": "https://aws.amazon.com/q/developer/pricing/",
+      "page_title": "AI for Software Development – Amazon Q Developer Pricing – AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Column header of the plan-comparison pricing table on the Amazon Q Developer pricing page, naming the Pro Tier and its monthly per-user price."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Q Developer — Pro Tier ($19/mo. per user); agentic capabilities described apply to both Free and Pro tiers",
+      "claim_verbatim": "To accelerate building across the entire software development lifecycle, Amazon Q Developer agentic capabilities can autonomously perform a range of tasks–everything from implementing features, documenting, testing, reviewing, and refactoring code, to performing software upgrades.",
+      "url": "https://aws.amazon.com/q/developer/",
+      "page_title": "Coding Assistant - Amazon Q Developer - AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"Build faster\" section of the Amazon Q Developer product page, describing the product's agentic/autonomy capability."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Q Developer — Pro Tier ($19/mo. per user)",
+      "claim_verbatim": "Amazon Q Developer agentic coding experience eliminates much of the work involved in complex multistep tasks such as unit testing, documentation, and code reviews. The agentic coding experience can intelligently perform tasks on your behalf by automatically reading and writing files, generating code diffs, and running shell commands, while incorporating your feedback and providing real-time updates along the way. Amazon Q Developer agentic capabilities have achieved the highest scores on the SWE-Bench Leaderboard and Leaderboard Lite.",
+      "url": "https://aws.amazon.com/q/developer/",
+      "page_title": "Coding Assistant - Amazon Q Developer - AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"Build with agentic capabilities\" section; a benchmark claim citing the SWE-Bench Leaderboard and Leaderboard Lite rankings."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Q Developer — Pro Tier ($19/mo. per user)",
+      "claim_verbatim": "Developer productivity increase.",
+      "url": "https://aws.amazon.com/q/developer/",
+      "page_title": "Coding Assistant - Amazon Q Developer - AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Stat-card label in the customer-results/data-point section; the number displayed beside this exact label is \"up to 40%\", sourced by AWS to an Eviden customer quote (linked CTA labeled \"Eviden quote\")."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Q Developer — Pro Tier ($19/mo. per user)",
+      "claim_verbatim": "Acceptance rate. The highest reported* code acceptance rate among assistants that perform multiline code suggestions.",
+      "url": "https://aws.amazon.com/q/developer/",
+      "page_title": "Coding Assistant - Amazon Q Developer - AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Stat-card label in the same data-point section; the number displayed beside this label is \"37%\", with the footnote \"*as recently reported by BT Group\" and a CTA link to a BT Group press release."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Q Business — plans from $3/user/month",
+      "claim_verbatim": "Amazon Q Business is the most capable generative AI-powered assistant for finding information, gaining insight, and taking action at work. It makes generative AI securely accessible to everyone in your organization, and helps your employees get work done faster.",
+      "url": "https://aws.amazon.com/q/business/",
+      "page_title": "Enterprise Knowledge Assistant - Amazon Q Business - AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Overview section near the top of the Amazon Q Business product page."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Q Business — plans from $3/user/month",
+      "claim_verbatim": "Flexible pricing for businesses of all sizes \n Amazon Q Business offers plans based on user subscriptions and search volumes. Get started for as little as $3/user/month.",
+      "url": "https://aws.amazon.com/q/business/",
+      "page_title": "Enterprise Knowledge Assistant - Amazon Q Business - AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Pricing teaser section of the Amazon Q Business product page, immediately before a link to the full pricing page."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Bedrock Agents (usage-based paid AWS service, part of Amazon Bedrock)",
+      "claim_verbatim": "Amazon Bedrock Agents uses the reasoning of foundation models (FMs), APIs, and data to break down user requests, gathers relevant information, and efficiently completes tasks—freeing teams to focus on high-value work.",
+      "url": "https://aws.amazon.com/bedrock/agents/",
+      "page_title": "AI Agents – Amazon Bedrock Agents – AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"What is Amazon Bedrock Agents?\" introductory section of the product page."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Amazon Bedrock Agents (usage-based paid AWS service, part of Amazon Bedrock)",
+      "claim_verbatim": "Agents has the ability to retain memory across interactions, offering more personalized and seamless user experiences. This feature allows an agent to remember historical interactions and improves the accuracy of multistep tasks. Users benefit from improved recommendations and recall of prior context when required, ensuring a more cohesive and efficient interaction with the agent.",
+      "url": "https://aws.amazon.com/bedrock/agents/",
+      "page_title": "AI Agents – Amazon Bedrock Agents – AWS",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"Memory retention\" feature description on the Bedrock Agents product page."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Alexa+ — Standard subscription, $19.99/month (free for Prime members)",
+      "claim_verbatim": "Alexa+ is now available in the U.S. for $19.99 per month and included at no additional cost to Prime members.",
+      "url": "https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us",
+      "page_title": "How to get Alexa Plus free with Prime membership",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-02-04",
+      "context": "\"Key takeaways\" summary box at the top of Amazon's official news article; article was last updated 2026-09-01 per its modified-time metadata."
+    },
+    {
+      "vendor": "Amazon",
+      "product": "Alexa+ — Standard subscription, $19.99/month (free for Prime members)",
+      "claim_verbatim": "Get complex tasks done: With Alexa+'s agentic capabilities, customers can order takeout, find restaurants and make reservations, book a ride, or schedule services like home repairs.",
+      "url": "https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us",
+      "page_title": "How to get Alexa Plus free with Prime membership",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-02-04",
+      "context": "\"What is Alexa+\" section listing capability categories, this one specifically labeled agentic."
+    },
+    {
+      "vendor": "Meta",
+      "product": "Meta Business Agent (WhatsApp/Messenger/Instagram) — free to start; paid subscription tiers announced as coming",
+      "claim_verbatim": "Today, we're introducing Meta Business Agent – AI that lets every business show up for every customer as if they had an infinite team behind them.",
+      "url": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "page_title": "Be There for Every Customer With Meta Business Agent",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-06-03",
+      "context": "Opening sentence of Meta's official newsroom announcement introducing Meta Business Agent."
+    },
+    {
+      "vendor": "Meta",
+      "product": "Meta Business Agent (WhatsApp/Messenger/Instagram) — free to start; paid subscription tiers announced as coming",
+      "claim_verbatim": "Business Agent can be set up in minutes or plugged directly into your existing enterprise infrastructure so you can 10X or 100X output.",
+      "url": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "page_title": "Be There for Every Customer With Meta Business Agent",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-06-03",
+      "context": "Second sentence of the announcement's opening paragraph, immediately following the introduction quote above."
+    },
+    {
+      "vendor": "Meta",
+      "product": "Meta Business Agent (WhatsApp/Messenger/Instagram) — free to start; paid subscription tiers announced as coming",
+      "claim_verbatim": "Businesses can activate their Business Agent here, and getting started is free. In the coming months, businesses will access the agent through paid subscription offerings, with options for businesses of every size.",
+      "url": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "page_title": "Be There for Every Customer With Meta Business Agent",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-06-03",
+      "context": "Section on expanding Business Agent to Instagram, describing the free-to-paid monetization plan."
+    },
+    {
+      "vendor": "Meta",
+      "product": "Meta Business Agent (WhatsApp/Messenger/Instagram) — free to start; paid subscription tiers announced as coming",
+      "claim_verbatim": "More than one million businesses are already using a Meta Business Agent on WhatsApp and Messenger to respond to customers around the clock.",
+      "url": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "page_title": "Be There for Every Customer With Meta Business Agent",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-06-03",
+      "context": "Scale/adoption statistic following the introduction, paired with a claim of \"more than one billion active threads\" daily across WhatsApp, Messenger and Instagram."
+    },
+    {
+      "vendor": "Meta",
+      "product": "Meta Business Agent (WhatsApp/Messenger/Instagram) — free to start; paid subscription tiers announced as coming",
+      "claim_verbatim": "Grow your business with an AI agent that responds like you on WhatsApp. Meta Business Agent sends personalized responses to customers 24/7 to gather information and drive sales.",
+      "url": "https://whatsappbusiness.com/products/business-app-ai-agent/",
+      "page_title": "Meta Business Agent on WhatsApp | WhatsApp for Business",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Hero headline text at the top of the official WhatsApp for Business product page for Meta Business Agent."
+    },
+    {
+      "vendor": "Meta",
+      "product": "Meta Business Agent (WhatsApp/Messenger/Instagram) — free to start; paid subscription tiers announced as coming",
+      "claim_verbatim": "AI automatically collects customer information, giving you time to focus on important work.",
+      "url": "https://whatsappbusiness.com/products/business-app-ai-agent/",
+      "page_title": "Meta Business Agent on WhatsApp | WhatsApp for Business",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"Gather customer information\" feature bullet in the \"ways your AI agent can help\" section."
+    },
+    {
+      "vendor": "Meta",
+      "product": "Meta Business Agent (WhatsApp/Messenger/Instagram) — free to start; paid subscription tiers announced as coming",
+      "claim_verbatim": "Meta Business Agent reduces time spent on repetitive questions and answers. It gathers customer details, shares product info, and alerts you when your attention is needed so you can focus on what matters.",
+      "url": "https://whatsappbusiness.com/products/business-app-ai-agent/",
+      "page_title": "Meta Business Agent on WhatsApp | WhatsApp for Business",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"Save time and resources\" section of the same product page."
+    },
+    {
+      "vendor": "Z.ai",
+      "product": "GLM Coding Plan — Lite tier from 18 USD/month, with Pro and Max tiers also offered",
+      "claim_verbatim": "Get higher call limits than standard plans. Starting at just 18 USD per month, with Pro and Max plans designed for high-frequency, complex projects.",
+      "url": "https://docs.z.ai/devpack/overview",
+      "page_title": "Overview - Overview - Z.AI DEVELOPER DOCUMENT",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"Generous Usage at a Fair Price\" bullet within the Coding Plan \"Advantages\" section of Z.ai's official developer documentation."
+    },
+    {
+      "vendor": "Z.ai",
+      "product": "GLM Coding Plan — Lite tier from 18 USD/month, with Pro and Max tiers also offered",
+      "claim_verbatim": "Access to high-intelligence Coding Model: Upon release, the GLM series achieved SOTA performance among open-source models in reasoning, coding, and agent capabilities, delivering outstanding results in tool use and complex task execution.",
+      "url": "https://docs.z.ai/devpack/overview",
+      "page_title": "Overview - Overview - Z.AI DEVELOPER DOCUMENT",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Same \"Advantages\" section, immediately preceding the pricing bullet above; a benchmark/performance claim."
+    },
+    {
+      "vendor": "Z.ai",
+      "product": "GLM Coding Plan — Lite tier from 18 USD/month, with Pro and Max tiers also offered",
+      "claim_verbatim": "Automated Task Handling Automatically fix lint issues, resolve merge conflicts, and generate release notes—allowing developers to stay focused on core logic.",
+      "url": "https://docs.z.ai/devpack/overview",
+      "page_title": "Overview - Overview - Z.AI DEVELOPER DOCUMENT",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Capability list on the same documentation page, describing autonomous task-handling behavior; \"Automated Task Handling\" is the item's own heading immediately preceding the sentence."
+    },
+    {
+      "vendor": "Z.ai",
+      "product": "GLM Coding Plan — plans from $18/month",
+      "claim_verbatim": "Plans from 18/month—fast, reliable code generation and tool use for daily dev work.",
+      "url": "https://z.ai/subscribe",
+      "page_title": "GLM Coding Plan — AI Coding Powered by GLM-5.3, GLM-5.3-Flash, GLM-5.2 & GLM-5-Turbo for Agents & IDEs",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Page meta-description tag (site-authored marketing summary, present in the page's HTML head) for the official GLM Coding Plan subscribe page; the visual pricing tier table itself is rendered client-side by JavaScript and was not captured in the static page source (see unverified list)."
+    },
+    {
+      "vendor": "Alibaba",
+      "product": "Alibaba Cloud Model Studio — Coding Plan, Pro tier $50/month",
+      "claim_verbatim": "Coding Plan gives you access to models including Qwen, GLM, Kimi, and MiniMax in popular AI coding tools. For a fixed monthly fee, it offers a cost-effective alternative to pay-as-you-go API billing.",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+      "page_title": "Coding plan - Alibaba Cloud Model Studio - Alibaba Cloud Documentation Center",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-09-11",
+      "context": "Opening description at the top of the official Coding Plan documentation page; the page states \"Last Updated: Sep 11, 2026\". Immediately followed by the Pro plan's price and quota (see next record)."
+    },
+    {
+      "vendor": "Alibaba",
+      "product": "Alibaba Cloud Model Studio — Coding Plan, Pro tier $50/month",
+      "claim_verbatim": "Price $ 50 /month Quota Up to 6,000 requests per 5 hours Up to 45,000 requests per week Up to 90,000 requests per month",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+      "page_title": "Coding plan - Alibaba Cloud Model Studio - Alibaba Cloud Documentation Center",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-09-11",
+      "context": "Pro-plan price/quota spec block on the Coding Plan documentation page (field labels \"Price\" and \"Quota\" are the page's own UI labels, reproduced exactly as they appear with the figures beside them; the page also notes the Lite plan stopped accepting new subscriptions as of March 20, 2026)."
+    },
+    {
+      "vendor": "Alibaba",
+      "product": "Alibaba Cloud Model Studio (platform underlying Qwen paid API/Coding Plan usage)",
+      "claim_verbatim": "Alibaba Cloud Model Studio is a one-stop model service platform. It provides the full Qwen series and mainstream third-party LLMs through official Qwen APIs and OpenAI-compatible APIs, with multimodal support across text, image, and audio/video.",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/what-is-model-studio",
+      "page_title": "OpenAI-Compatible Qwen & Multimodal Model Access - Model Studio - Alibaba Cloud Model Studio - Alibaba Cloud Documentation Center",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-09-22",
+      "context": "Opening paragraph of Alibaba Cloud's official \"What is Alibaba Cloud Model Studio\" documentation page; the page states \"Last Updated: Sep 22, 2026\"."
+    }
+  ],
+  "unverified": [
+    {
+      "url": "https://z.ai/pricing",
+      "reason": "GLM Coding Plan tier names and exact prices (Lite/Pro/Max) are rendered client-side via JavaScript/API after page load; the fetched static HTML contained only navigation chrome and Next.js bootstrap code, no visible tier pricing text. Third-party aggregator sites report Lite $18, Pro $72, Max $160 per month, but this could not be confirmed by directly reading the vendor's own page content."
+    },
+    {
+      "url": "https://z.ai/subscribe",
+      "reason": "Same client-side-rendering issue as z.ai/pricing: the individual tier cards (Lite/Pro/Max) with per-tier pricing and quota were not present in the static HTML fetched; only the page title and meta description (recorded as a claim above) were directly readable."
+    },
+    {
+      "url": "https://www.alibabacloud.com/en/product/modelstudio",
+      "reason": "Request returned an HTTP 302 redirect with no page content; the correct current marketing landing page for Model Studio could not be located and read."
+    },
+    {
+      "url": "https://x.com/Alibaba_Qwen/status/2024136381308805564",
+      "reason": "This is Alibaba's official Qwen account on X (Twitter), a third-party platform rather than an Alibaba-owned property, so it was excluded from the claims list on that basis; it was also only seen via a search-engine snippet, not opened and read directly, so per the hard rules it could not be recorded even if the platform were in scope. It claims a 'Qwen Coding Plan' with ~$10/mo Lite and ~$50/mo Pro tiers, which partially overlaps with the verified Alibaba Cloud Model Studio Coding Plan documentation used above, but the exact wording of the tweet was not independently verified by direct page read."
+    },
+    {
+      "url": "https://llama.developer.meta.com/",
+      "reason": "Search results indicate Meta's first-party hosted Llama API is being wound down in favor of third-party hosting providers, and that Meta AI (meta.ai) and Llama integrations in WhatsApp/Instagram/Messenger are free consumer products with no subscription tier. No verbatim, currently-live paid-product marketing claim for a first-party Meta Llama/Meta AI offering (distinct from Meta Business Agent) could be located and directly read as of the access date, so none is recorded for that product line."
+    },
+    {
+      "url": "https://www.whatsapp.com/business/premium (and similar candidate URLs)",
+      "reason": "No single official global WhatsApp Business Premium / Meta Verified for Business pricing page could be located; third-party sources describe regional pricing (~$5-15/month, billed via app store) but no exact page was opened and read directly, so no verbatim pricing claim for that specific tier is recorded."
+    }
+  ]
+}

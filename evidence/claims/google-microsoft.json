@@ -1,0 +1,292 @@
+{
+  "collected_by": "Claude (subagent, general-purpose research agent)",
+  "collected_at": "2026-09-23T00:00:00Z",
+  "claims": [
+    {
+      "vendor": "Google",
+      "product": "Jules (Google Labs coding agent) — general product, free tier plus paid access via Google AI Pro ($19.99/mo) and Google AI Ultra (from $99.99/mo)",
+      "claim_verbatim": "Jules, our asynchronous coding agent, is now available for everyone.",
+      "url": "https://blog.google/technology/google-labs/jules-now-available/",
+      "page_title": "Jules, our asynchronous coding agent, is now available for everyone.",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-08-06",
+      "context": "Headline/title of Google's official blog post announcing Jules's public launch out of beta."
+    },
+    {
+      "vendor": "Google",
+      "product": "Jules in Google AI Pro ($19.99/mo)",
+      "claim_verbatim": "5x higher limits. Ideal for daily coding",
+      "url": "https://blog.google/technology/google-labs/jules-now-available/",
+      "page_title": "Jules, our asynchronous coding agent, is now available for everyone.",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-08-06",
+      "context": "Description of the Jules usage tier bundled with the Google AI Pro subscription."
+    },
+    {
+      "vendor": "Google",
+      "product": "Jules in Google AI Ultra (from $99.99/mo)",
+      "claim_verbatim": "20x higher limits. Built for intensive, multi-agent workflows at scale",
+      "url": "https://blog.google/technology/google-labs/jules-now-available/",
+      "page_title": "Jules, our asynchronous coding agent, is now available for everyone.",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-08-06",
+      "context": "Description of the Jules usage tier bundled with the Google AI Ultra subscription."
+    },
+    {
+      "vendor": "Google",
+      "product": "Jules — general product (beta results cited in GA launch announcement)",
+      "claim_verbatim": "thousands of developers tackled tens of thousands of tasks, resulting in over 140,000 code improvements",
+      "url": "https://blog.google/technology/google-labs/jules-now-available/",
+      "page_title": "Jules, our asynchronous coding agent, is now available for everyone.",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-08-06",
+      "context": "Statistic cited in the body of the launch post describing Jules's public beta period."
+    },
+    {
+      "vendor": "Google",
+      "product": "Google AI Pro — $19.99/mo",
+      "claim_verbatim": "Create faster and get more done with 4x access* to Gemini",
+      "url": "https://one.google.com/intl/en/about/google-ai-plans/",
+      "page_title": "Google AI plans with Cloud Storage - Google One",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Marketing copy for the Google AI Pro tier on Google One's AI plans page (asterisk footnoted as 'in comparison to non-AI subscribers')."
+    },
+    {
+      "vendor": "Google",
+      "product": "Google AI Ultra — from $99.99/mo",
+      "claim_verbatim": "Accelerate your workflows with up to 20x access* to Gemini",
+      "url": "https://one.google.com/intl/en/about/google-ai-plans/",
+      "page_title": "Google AI plans with Cloud Storage - Google One",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Marketing copy for the Google AI Ultra tier on Google One's AI plans page (asterisk footnoted as 'in comparison to non-AI subscribers')."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini 3 Pro — accessed via Gemini app; expanded/priority access is a paid-tier feature of Google AI Pro ($19.99/mo) and Google AI Ultra (from $99.99/mo)",
+      "claim_verbatim": "Gemini 3 Pro significantly outperforms 2.5 Pro on every major AI benchmark.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "page_title": "A new era of intelligence with Gemini 3",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-18",
+      "context": "General performance claim in Google's official Gemini 3 launch blog post, in the section introducing the model."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini 3 Pro — accessed via Gemini app; expanded/priority access is a paid-tier feature of Google AI Pro / Ultra",
+      "claim_verbatim": "It's the best vibe coding and agentic coding model we've ever built.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "page_title": "A new era of intelligence with Gemini 3",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-18",
+      "context": "Claim in the coding/agentic capabilities section of the Gemini 3 launch blog post."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini 3 Pro — accessed via Gemini app; expanded/priority access is a paid-tier feature of Google AI Pro / Ultra",
+      "claim_verbatim": "It tops the LMArena Leaderboard with a breakthrough score of 1501 Elo.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "page_title": "A new era of intelligence with Gemini 3",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-18",
+      "context": "Benchmark claim in the Gemini 3 launch blog post's performance section."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini 3 Pro — accessed via Gemini app; expanded/priority access is a paid-tier feature of Google AI Pro / Ultra",
+      "claim_verbatim": "It greatly outperforms 2.5 Pro on SWE-bench Verified (76.2%), a benchmark that measures coding agents.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "page_title": "A new era of intelligence with Gemini 3",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-18",
+      "context": "Coding-agent benchmark claim in the Gemini 3 launch blog post."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini Code Assist (Google Cloud) — paid Standard/Enterprise tiers; per-seat pricing not independently verified this session (see unverified list)",
+      "claim_verbatim": "helps you tackle complex, multi-step tasks with an intelligent, collaborative approach",
+      "url": "https://developers.googleblog.com/new-in-gemini-code-assist/",
+      "page_title": "What's new in Gemini Code Assist - Google Developers Blog",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-08-21",
+      "context": "Description of Gemini Code Assist's 'agent mode' feature on the Google Developers Blog capability update post."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini Code Assist (Google Cloud) — paid Standard/Enterprise tiers; per-seat pricing not independently verified this session (see unverified list)",
+      "claim_verbatim": "helping you achieve a more efficient workflow and produce better code, while saving you significant time and effort",
+      "url": "https://developers.googleblog.com/new-in-gemini-code-assist/",
+      "page_title": "What's new in Gemini Code Assist - Google Developers Blog",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-08-21",
+      "context": "Productivity/time-saving claim describing agent mode's effect on developer workflow, same post as above."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot (paid subscription; equivalent today to Copilot Pro, $10/user/month)",
+      "claim_verbatim": "developers who used GitHub Copilot completed the task significantly faster–55% faster than the developers who didn't use GitHub Copilot",
+      "url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
+      "page_title": "Research: quantifying GitHub Copilot's impact on developer productivity and happiness",
+      "date_accessed": "2026-09-23",
+      "date_published": "2022-09-07",
+      "context": "Headline finding of GitHub's controlled study (page notes 'Updated May 21, 2024'), stated in the results section describing a timed HTTP-server coding task."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot (paid subscription; equivalent today to Copilot Pro, $10/user/month)",
+      "claim_verbatim": "the developers using GitHub Copilot took on average 1 hour and 11 minutes to complete the task, while the developers who didn't use GitHub Copilot took on average 2 hours and 41 minutes",
+      "url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
+      "page_title": "Research: quantifying GitHub Copilot's impact on developer productivity and happiness",
+      "date_accessed": "2026-09-23",
+      "date_published": "2022-09-07",
+      "context": "Underlying timing data behind the '55% faster' headline figure, same results section."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot (paid subscription; equivalent today to Copilot Pro, $10/user/month)",
+      "claim_verbatim": "The group that used GitHub Copilot had a higher rate of completing the task (78%, compared to 70%)",
+      "url": "https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/",
+      "page_title": "Research: quantifying GitHub Copilot's impact on developer productivity and happiness",
+      "date_accessed": "2026-09-23",
+      "date_published": "2022-09-07",
+      "context": "Task-completion-rate finding reported alongside the speed result in the same study."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot Pro ($10/user/month) and higher paid tiers (Pro+ $39, Business $19/user/mo, Enterprise $39/user/mo)",
+      "claim_verbatim": "up to 55% more productive at writing code without sacrifice to quality",
+      "url": "https://github.com/features/copilot/plans",
+      "page_title": "GitHub Copilot · Plans & pricing · GitHub",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Productivity claim displayed on GitHub's official Copilot plans-and-pricing page, alongside the paid tier comparison table."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot Pro ($10/user/month) and higher paid tiers",
+      "claim_verbatim": "developers who use GitHub Copilot report up to 75% higher satisfaction with their jobs than those who don't",
+      "url": "https://github.com/features/copilot/plans",
+      "page_title": "GitHub Copilot · Plans & pricing · GitHub",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Satisfaction claim on the same official Copilot plans-and-pricing page."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot (enterprise-wide deployment; customer story does not itself state a per-seat price — see Business $19/user/mo or Enterprise $39/user/mo on the plans page)",
+      "claim_verbatim": "94% said they considered themselves more productive overall thanks to Copilot",
+      "url": "https://github.com/customer-stories/grupoboticario",
+      "page_title": "Grupo Boticário stays ahead of the curve with GitHub Copilot",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Headline statistic on GitHub's official customer-story page about Grupo Botícario's Copilot rollout."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot — coding agent feature (included in paid plans starting at Copilot Pro, $10/user/month, per the plans page; specific minimum-tier gating not confirmed on this particular page)",
+      "claim_verbatim": "Coding agent is an asynchronous collaborator and works on your behalf like a teammate",
+      "url": "https://github.blog/ai-and-ml/github-copilot/assigning-and-completing-issues-with-coding-agent-in-github-copilot/",
+      "page_title": "Assigning and completing issues with coding agent in GitHub Copilot",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-06-06",
+      "context": "Description distinguishing 'coding agent' from real-time 'agent mode', in GitHub's official blog post announcing the feature."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "GitHub Copilot — coding agent feature",
+      "claim_verbatim": "You assign Copilot an issue and it plans the work, opens a pull request, writes the code, runs the tests, and then asks for your review.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/assigning-and-completing-issues-with-coding-agent-in-github-copilot/",
+      "page_title": "Assigning and completing issues with coding agent in GitHub Copilot",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-06-06",
+      "context": "End-to-end task description of the coding agent workflow, same official blog post."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot — paid add-on; companion pricing page lists Business add-on starting from $18.00 user/month (annual) and Business Premium with Copilot at $32.00 user/month (annual)",
+      "claim_verbatim": "Add agents to Copilot that automate common tasks or work on your behalf.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot",
+      "page_title": "Microsoft 365 Copilot | AI Productivity Tools for Work",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Autonomy/agents claim on Microsoft's official Microsoft 365 Copilot product page."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Cowork — feature within a paid Microsoft 365 Copilot subscription (Cowork-specific pricing not independently verified this session)",
+      "claim_verbatim": "Securely hand off complex tasks and keep multiple projects moving at once with Microsoft 365 Copilot Cowork.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot",
+      "page_title": "Microsoft 365 Copilot | AI Productivity Tools for Work",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Cowork feature callout on the main Microsoft 365 Copilot product page."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Cowork — feature within a paid Microsoft 365 Copilot subscription",
+      "claim_verbatim": "Copilot works independently without you giving up control",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/",
+      "page_title": "Copilot Cowork: A new way of getting work done",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-03-09",
+      "context": "Autonomy claim in Microsoft's official Microsoft 365 Blog announcement of Copilot Cowork's general availability."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Cowork — feature within a paid Microsoft 365 Copilot subscription",
+      "claim_verbatim": "completing tasks, running workflows, and doing work on your behalf",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/",
+      "page_title": "Copilot Cowork: A new way of getting work done",
+      "date_accessed": "2026-09-23",
+      "date_published": "2026-03-09",
+      "context": "Description of the shift from answers to autonomous action, same Cowork announcement post."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Agents — general marketing page; no price stated on this page",
+      "claim_verbatim": "Understand how autonomous agents work on your behalf so you and your organization can accomplish more.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/agents",
+      "page_title": "AI Agents for Individuals and Businesses | Microsoft Copilot",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Autonomy claim accompanying an infographic titled 'What is an autonomous agent?' on Microsoft's Copilot agents page."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Studio — $200.00 per pack/month for 25,000 Copilot Credits (pre-purchase), or pay-as-you-go with no upfront commitment",
+      "claim_verbatim": "Build autonomous agents and create agents for external channels like websites, apps, or social platforms.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/copilot-studio",
+      "page_title": "Microsoft 365 Copilot Pricing – AI Agents | Copilot Studio",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Autonomy claim on Microsoft's official Copilot Studio pricing page, next to the Copilot Credits pricing table."
+    }
+  ],
+  "unverified": [
+    {
+      "url": "https://jules.google.com/",
+      "reason": "Page is a JavaScript-rendered single-page app; WebFetch returned only a Google Sign-in link with no descriptive marketing/capability content, so no claims could be verified verbatim from this exact URL (claims about Jules were instead sourced from Google's blog.google announcement post, which did render as text)."
+    },
+    {
+      "url": "https://cloud.google.com/products/gemini/code-assist (redirects to https://codeassist.google/products/business)",
+      "reason": "WebFetch repeatedly reported the fetched page content as truncated ('[Content truncated due to length...]') across three separate attempts with narrowed prompts; unable to retrieve verbatim pricing figures or capability sentences from this page. Gemini Code Assist capability claims in this file were instead sourced from a Google Developers Blog post that did render successfully."
+    },
+    {
+      "url": "https://gemini.google.com/",
+      "reason": "WebFetch failed with a 'Parse Error: Header overflow' and returned no page content, so no Gemini app / Gemini Advanced consumer-page claims could be verified from this URL."
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-copilot",
+      "reason": "Page fetched successfully but contained no Copilot Pro or paid-consumer-tier marketing content — it is framed as an organizations/business landing page — so no paid-tier claim could be verified from this specific URL."
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-365/premium",
+      "reason": "WebFetch timed out (60s) on two separate attempts; page content could not be retrieved, so no Microsoft 365 Premium / consumer Copilot claims could be verified from this URL."
+    },
+    {
+      "url": "no single URL — 'Microsoft Copilot Pro, $20/month' standalone plan",
+      "reason": "Multiple third-party sources indicate this standalone consumer plan was retired around October 2025 and folded into Microsoft 365 Premium; no current official Microsoft page stating this exact price/plan could be located and opened this session, so no claim was recorded for it."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "source": "/home/demo/.claude/projects",
+  "loop_threshold": 3,
+  "transcripts": 237,
+  "projects": {
+    "-home-demo": {
+      "transcripts": 82,
+      "tool_calls": 8565,
+      "failures": 391,
+      "repeat_fails": 2,
+      "looped_transcripts": 0,
+      "worst_streak": 2,
+      "examples": []
+    },
+    "-home-demo-www-dashbored": {
+      "transcripts": 54,
+      "tool_calls": 3023,
+      "failures": 257,
+      "repeat_fails": 8,
+      "looped_transcripts": 0,
+      "worst_streak": 2,
+      "examples": []
+    },
+    "-home-demo-projects-totem-packages-opencode": {
+      "transcripts": 1,
+      "tool_calls": 95,
+      "failures": 8,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 1,
+      "examples": []
+    },
+    "-home-demo-career-ops": {
+      "transcripts": 1,
+      "tool_calls": 2,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    },
+    "-home-demo--claude-mem-observer-sessions": {
+      "transcripts": 82,
+      "tool_calls": 1,
+      "failures": 1,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 1,
+      "examples": []
+    },
+    "-home-demo--local-share-opencode": {
+      "transcripts": 2,
+      "tool_calls": 0,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    },
+    "-home-demo-UMBREALITY": {
+      "transcripts": 2,
+      "tool_calls": 0,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    },
+    "-home-demo-www": {
+      "transcripts": 2,
+      "tool_calls": 0,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    },
+    "-home-demo-wwwProjects-DASHBOARDS-dashbored": {
+      "transcripts": 1,
+      "tool_calls": 0,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    },
+    "-tmp-openclaw-crestodian-planner-0HFBkq": {
+      "transcripts": 1,
+      "tool_calls": 0,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    },
+    "-tmp-openclaw-crestodian-planner-JtF1rj": {
+      "transcripts": 1,
+      "tool_calls": 0,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    },
+    ".trash-sessions": {
+      "transcripts": 8,
+      "tool_calls": 0,
+      "failures": 0,
+      "repeat_fails": 0,
+      "looped_transcripts": 0,
+      "worst_streak": 0,
+      "examples": []
+    }
+  }
+}

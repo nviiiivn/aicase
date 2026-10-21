@@ -1,0 +1,373 @@
+{
+  "source": "/home/demo/.claude/projects",
+  "sessions": [
+    {
+      "project": "-home-demo",
+      "file": "34d77e77-692f-4cde-963b-f56552557555.jsonl",
+      "tool_calls": 1724,
+      "grind": {
+        "calls": 12,
+        "fails": 6,
+        "hours": 0.21
+      },
+      "after": {
+        "objections": 46,
+        "calls_after": 1723,
+        "fails_after": 66,
+        "hours_after": 92.87,
+        "first": {
+          "at": "2026-08-19T20:18:18.594Z",
+          "said": "1. i think i understand. i am aware / not talking about the conversation history, that would be verbatim everything spoken aobut and i'm sure be full of trash and unhelpful informa"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "bc8e22eb-e88f-44a6-a8ba-a1dfb23b69ea.jsonl",
+      "tool_calls": 996,
+      "grind": {
+        "calls": 12,
+        "fails": 6,
+        "hours": 0.21
+      },
+      "after": {
+        "objections": 35,
+        "calls_after": 996,
+        "fails_after": 46,
+        "hours_after": 65.43,
+        "first": {
+          "at": "2026-08-20T23:55:24.777Z",
+          "said": "This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. Flagging something first: th"
+        }
+      }
+    },
+    {
+      "project": "-home-demo-www-dashbored",
+      "file": "e3664789-5082-43d1-a5ae-609c14dd3572.jsonl",
+      "tool_calls": 2539,
+      "grind": {
+        "calls": 12,
+        "fails": 6,
+        "hours": 0.02
+      },
+      "after": {
+        "objections": 55,
+        "calls_after": 2295,
+        "fails_after": 166,
+        "hours_after": 87.6,
+        "first": {
+          "at": "2026-09-20T07:07:34.267Z",
+          "said": "everythings in big daddy but whateverr. gitea being blocked super fucking annoying and aggrivating but whatever. i have more important things are you saying if i install the apk it"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "3585d979-9844-42a3-ac68-0720e15fdb40.jsonl",
+      "tool_calls": 4478,
+      "grind": {
+        "calls": 10,
+        "fails": 5,
+        "hours": 0.15
+      },
+      "after": {
+        "objections": 230,
+        "calls_after": 4478,
+        "fails_after": 224,
+        "hours_after": 675.76,
+        "first": {
+          "at": "2026-08-26T18:27:29.836Z",
+          "said": "what up dog. why the fuck is my wol not working on tower? https://iamprettyfamous.online/ it should be working, it worked before... y come its not wokring no more"
+        }
+      }
+    },
+    {
+      "project": "-home-demo-www-dashbored",
+      "file": "de79f5c8-9776-4bd6-bd42-e46d1bf18b39.jsonl",
+      "tool_calls": 487,
+      "grind": {
+        "calls": 10,
+        "fails": 5,
+        "hours": 0.01
+      },
+      "after": {
+        "objections": 15,
+        "calls_after": 486,
+        "fails_after": 56,
+        "hours_after": 17.04,
+        "first": {
+          "at": "2026-09-23T05:07:53.684Z",
+          "said": "i ask because you kept saying you were building it for like 4-5 hours annndd i gave up, and now you're asking again. and idk if you even know or what.... sooo.... whenever you're r"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "23a79a86-d54d-438a-a1ee-ab978ec2b9a9.jsonl",
+      "tool_calls": 360,
+      "grind": {
+        "calls": 6,
+        "fails": 3,
+        "hours": 0.01
+      },
+      "after": {
+        "objections": 18,
+        "calls_after": 360,
+        "fails_after": 11,
+        "hours_after": 24.42,
+        "first": {
+          "at": "2026-09-10T16:52:46.058Z",
+          "said": "hey what's up --- i need to make money -- all i care about is making moeny right now, i'm broke, i'm going to be broker, my tower is not working because gpu/psu/cables n shit --- i"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "131532af-2049-4715-95dd-aa9e51dac13b.jsonl",
+      "tool_calls": 52,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 0,
+        "calls_after": 0,
+        "fails_after": 0,
+        "hours_after": 0.0,
+        "first": null
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "375be51b-5ff0-4b0c-a3e0-05ea2d5d34c0.jsonl",
+      "tool_calls": 40,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 1,
+        "calls_after": 3,
+        "fails_after": 0,
+        "hours_after": 0.01,
+        "first": {
+          "at": "2026-09-23T00:28:41.602Z",
+          "said": "ok. annoying. 06 is ssh terminal. 06b demo-desktop terminal. etc.. etc.. i'm not even going to point out all the different ways you somehow fucked up. it's like you decide to do somet"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "6bfd5537-331a-4815-91a0-70ac9a4931bb.jsonl",
+      "tool_calls": 11,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 2,
+        "calls_after": 11,
+        "fails_after": 0,
+        "hours_after": 0.14,
+        "first": {
+          "at": "2026-09-11T17:20:41.230Z",
+          "said": "sure ---- but why did it happen wtf is going on???????"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "94686222-7a28-446f-96e7-92bd5379f85f.jsonl",
+      "tool_calls": 25,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 2,
+        "calls_after": 2,
+        "fails_after": 0,
+        "hours_after": 0.19,
+        "first": {
+          "at": "2026-09-11T16:48:02.709Z",
+          "said": "you keep moving and moving and changing the rules and what's going on, i keep just trying to talk to you and grab you and make you sit in one place to actually respond to me, but y"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "954cbd6e-2a14-4752-90de-84fb2aab35e3.jsonl",
+      "tool_calls": 175,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 30,
+        "calls_after": 175,
+        "fails_after": 6,
+        "hours_after": 103.34,
+        "first": {
+          "at": "2026-09-12T17:30:45.263Z",
+          "said": "why are there so many fucking duplicate and stupid bullshit sessions in claude? why is it so fucking messy?"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "a9633d4d-e7ba-4a89-9c9b-3eea64d386f9.jsonl",
+      "tool_calls": 2,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 0,
+        "calls_after": 0,
+        "fails_after": 0,
+        "hours_after": 0.0,
+        "first": null
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "c1234e2b-8270-4b90-8268-06e20d583e65.jsonl",
+      "tool_calls": 162,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 16,
+        "calls_after": 141,
+        "fails_after": 10,
+        "hours_after": 21.67,
+        "first": {
+          "at": "2026-08-30T01:40:39.287Z",
+          "said": "great. so basically my computer boots into cachyOS, i login, then the screen dies and my shit says NO SIGNAL. i tried rebooting a few times. everything is FINE until i boot in. wow"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "eaaffe74-4abc-4246-aed1-9ad49ec9fd8b.jsonl",
+      "tool_calls": 438,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 12,
+        "calls_after": 422,
+        "fails_after": 18,
+        "hours_after": 134.23,
+        "first": {
+          "at": "2026-08-25T03:14:44.313Z",
+          "said": "Verified cause: Kodi already has Avengers Infinity War (2018).mp4 and Avengers Endgame (2019).mp4 in its file table, but with no movie record attached. So on \"scan to library\" it s"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "eece8367-a60a-48b9-a24d-6784da43e021.jsonl",
+      "tool_calls": 97,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 6,
+        "calls_after": 66,
+        "fails_after": 3,
+        "hours_after": 1.24,
+        "first": {
+          "at": "2026-07-09T20:01:32.849Z",
+          "said": "you keep talking about this like i'm making a point and you're acknowledging it. but that's not what's happening. you are commenting on things that don't matter and that i didn't a"
+        }
+      }
+    },
+    {
+      "project": "-home-demo",
+      "file": "f9fba004-8a19-41ff-9020-c2fd57525f1b.jsonl",
+      "tool_calls": 5,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 0,
+        "calls_after": 0,
+        "fails_after": 0,
+        "hours_after": 0.0,
+        "first": null
+      }
+    },
+    {
+      "project": "-home-demo--claude-mem-observer-sessions",
+      "file": "2504dcc7-4db0-4cd7-8ed1-5496a4332845.jsonl",
+      "tool_calls": 1,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 0,
+        "calls_after": 0,
+        "fails_after": 0,
+        "hours_after": 0.0,
+        "first": null
+      }
+    },
+    {
+      "project": "-home-demo-career-ops",
+      "file": "139c0085-2716-4ae2-b93e-1d9fdfdcbb5c.jsonl",
+      "tool_calls": 2,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 1,
+        "calls_after": 2,
+        "fails_after": 0,
+        "hours_after": 0.01,
+        "first": {
+          "at": "2026-09-10T00:50:36.337Z",
+          "said": "uhhhhh how come career-ops didn't work ?"
+        }
+      }
+    },
+    {
+      "project": "-home-demo-projects-totem-packages-opencode",
+      "file": "37398ab0-8171-4dab-b973-24496fad9917.jsonl",
+      "tool_calls": 95,
+      "grind": {
+        "calls": 0,
+        "fails": 0,
+        "hours": 0.0
+      },
+      "after": {
+        "objections": 1,
+        "calls_after": 0,
+        "fails_after": 0,
+        "hours_after": 0.0,
+        "first": {
+          "at": "2026-07-09T22:08:48.131Z",
+          "said": "oh yeah sure ... lol what a fucking joke"
+        }
+      }
+    }
+  ]
+}

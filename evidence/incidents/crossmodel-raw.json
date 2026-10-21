@@ -1,0 +1,131 @@
+{
+  "source": "/home/demo/.local/share/opencode/opencode.db",
+  "loop_threshold": 3,
+  "sessions_total": 187,
+  "models": {
+    "DeepSeek": {
+      "sessions": 62,
+      "sessions_with_tools": 62,
+      "tool_calls": 29985,
+      "errors": 871,
+      "repeat_fails": 67,
+      "looped_sessions": 5,
+      "worst_streak": 5,
+      "cost": 103.04268414500004,
+      "tokens_out": 9768433,
+      "examples": [
+        {
+          "session": "ses_161b11d08ffehGfuSPd3S2YrX5",
+          "tool": "read",
+          "identical_failures": 5
+        },
+        {
+          "session": "ses_142d9bab0ffeininzvT7L9LfHP",
+          "tool": "read",
+          "identical_failures": 5
+        },
+        {
+          "session": "ses_142d910feffeFS0cGB2qrYTb00",
+          "tool": "read",
+          "identical_failures": 5
+        }
+      ]
+    },
+    "GPT": {
+      "sessions": 44,
+      "sessions_with_tools": 0,
+      "tool_calls": 0,
+      "errors": 0,
+      "repeat_fails": 0,
+      "looped_sessions": 0,
+      "worst_streak": 0,
+      "cost": 0.0,
+      "tokens_out": 0,
+      "examples": []
+    },
+    "Qwen": {
+      "sessions": 35,
+      "sessions_with_tools": 0,
+      "tool_calls": 0,
+      "errors": 0,
+      "repeat_fails": 0,
+      "looped_sessions": 0,
+      "worst_streak": 0,
+      "cost": 0.0,
+      "tokens_out": 0,
+      "examples": []
+    },
+    "big-pickle": {
+      "sessions": 14,
+      "sessions_with_tools": 14,
+      "tool_calls": 1511,
+      "errors": 30,
+      "repeat_fails": 2,
+      "looped_sessions": 0,
+      "worst_streak": 2,
+      "cost": 0.0,
+      "tokens_out": 432806,
+      "examples": []
+    },
+    "Gemini": {
+      "sessions": 12,
+      "sessions_with_tools": 0,
+      "tool_calls": 0,
+      "errors": 0,
+      "repeat_fails": 0,
+      "looped_sessions": 0,
+      "worst_streak": 0,
+      "cost": 0.0,
+      "tokens_out": 0,
+      "examples": []
+    },
+    "Claude": {
+      "sessions": 11,
+      "sessions_with_tools": 1,
+      "tool_calls": 356,
+      "errors": 4,
+      "repeat_fails": 0,
+      "looped_sessions": 0,
+      "worst_streak": 1,
+      "cost": 0.0,
+      "tokens_out": 98532,
+      "examples": []
+    },
+    "Nemotron": {
+      "sessions": 6,
+      "sessions_with_tools": 4,
+      "tool_calls": 171,
+      "errors": 9,
+      "repeat_fails": 0,
+      "looped_sessions": 0,
+      "worst_streak": 1,
+      "cost": 0.39958510399999997,
+      "tokens_out": 61959,
+      "examples": []
+    },
+    "Ring": {
+      "sessions": 2,
+      "sessions_with_tools": 2,
+      "tool_calls": 186,
+      "errors": 3,
+      "repeat_fails": 0,
+      "looped_sessions": 0,
+      "worst_streak": 1,
+      "cost": 0.0,
+      "tokens_out": 81674,
+      "examples": []
+    },
+    "GLM": {
+      "sessions": 1,
+      "sessions_with_tools": 1,
+      "tool_calls": 35,
+      "errors": 0,
+      "repeat_fails": 0,
+      "looped_sessions": 0,
+      "worst_streak": 0,
+      "cost": 0.5572383999999999,
+      "tokens_out": 14235,
+      "examples": []
+    }
+  }
+}

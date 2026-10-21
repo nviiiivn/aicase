@@ -1,0 +1,324 @@
+{
+  "turns_total": 6761,
+  "turns_on_topic": 486,
+  "first_on_topic": "2026-09-20T05:06:02.073Z",
+  "last_on_topic": "2026-09-23T17:23:44.075Z",
+  "session_first": "2026-09-20T05:04:04.227Z",
+  "session_last": "2026-09-23T17:24:37.326Z",
+  "assistant_turns_on_topic": 305,
+  "output_tokens_on_topic": 336627,
+  "output_tokens_total": 3091916,
+  "input_tokens_total": 7634,
+  "cache_tokens_total": 1769062431,
+  "signatures": {
+    "Apple refused the request": {
+      "count": 6,
+      "first": "2026-09-23T15:05:13.849Z",
+      "last": "2026-09-23T15:05:55.201Z"
+    },
+    "AssetCatalogSimulatorAgent handshake": {
+      "count": 18,
+      "first": "2026-09-23T07:39:25.130Z",
+      "last": "2026-09-23T17:23:44.075Z"
+    },
+    "CI job died with no steps": {
+      "count": 25,
+      "first": "2026-09-21T23:20:34.041Z",
+      "last": "2026-09-23T17:24:03.526Z"
+    },
+    "CompileAssetCatalog / DKPhotoGallery": {
+      "count": 34,
+      "first": "2026-09-23T05:08:13.086Z",
+      "last": "2026-09-23T17:23:44.075Z"
+    },
+    "download stalled": {
+      "count": 22,
+      "first": "2026-09-23T07:39:48.863Z",
+      "last": "2026-09-23T17:23:20.860Z"
+    },
+    "missing Foundation symbol": {
+      "count": 20,
+      "first": "2026-09-23T07:39:25.130Z",
+      "last": "2026-09-23T17:23:20.860Z"
+    },
+    "no simulator runtime available": {
+      "count": 16,
+      "first": "2026-09-23T07:42:49.361Z",
+      "last": "2026-09-23T17:23:20.860Z"
+    },
+    "xcodebuild hung at 0% CPU": {
+      "count": 7,
+      "first": "2026-09-22T23:38:25.899Z",
+      "last": "2026-09-23T17:23:44.075Z"
+    }
+  },
+  "her_messages_total": 305,
+  "signature_hits": {
+    "CI job died with no steps": [
+      "2026-09-21T23:20:34.041Z",
+      "2026-09-21T23:21:07.764Z",
+      "2026-09-21T23:24:11.974Z",
+      "2026-09-21T23:25:09.184Z",
+      "2026-09-21T23:56:55.248Z",
+      "2026-09-22T01:52:34.981Z",
+      "2026-09-22T01:53:07.868Z",
+      "2026-09-22T01:53:20.805Z",
+      "2026-09-22T04:26:00.611Z",
+      "2026-09-22T16:29:55.001Z",
+      "2026-09-22T16:57:31.013Z",
+      "2026-09-22T16:58:07.769Z",
+      "2026-09-22T16:59:33.088Z",
+      "2026-09-22T18:53:53.112Z",
+      "2026-09-22T19:32:03.809Z",
+      "2026-09-22T19:32:24.278Z",
+      "2026-09-23T07:35:41.241Z",
+      "2026-09-23T07:35:41.241Z",
+      "2026-09-23T07:39:09.625Z",
+      "2026-09-23T07:39:09.625Z",
+      "2026-09-23T17:22:49.968Z",
+      "2026-09-23T17:23:20.860Z",
+      "2026-09-23T17:23:30.274Z",
+      "2026-09-23T17:23:44.075Z",
+      "2026-09-23T17:24:03.526Z"
+    ],
+    "xcodebuild hung at 0% CPU": [
+      "2026-09-22T23:38:25.899Z",
+      "2026-09-23T05:07:31.805Z",
+      "2026-09-23T05:07:31.805Z",
+      "2026-09-23T17:22:49.968Z",
+      "2026-09-23T17:23:20.860Z",
+      "2026-09-23T17:23:30.274Z",
+      "2026-09-23T17:23:44.075Z"
+    ],
+    "CompileAssetCatalog / DKPhotoGallery": [
+      "2026-09-23T05:08:13.086Z",
+      "2026-09-23T05:08:13.086Z",
+      "2026-09-23T05:08:28.946Z",
+      "2026-09-23T05:08:28.946Z",
+      "2026-09-23T05:08:43.350Z",
+      "2026-09-23T05:08:43.350Z",
+      "2026-09-23T05:54:41.070Z",
+      "2026-09-23T05:54:41.070Z",
+      "2026-09-23T07:34:54.834Z",
+      "2026-09-23T07:34:54.834Z",
+      "2026-09-23T07:39:15.655Z",
+      "2026-09-23T07:39:15.655Z",
+      "2026-09-23T07:39:23.935Z",
+      "2026-09-23T07:39:23.935Z",
+      "2026-09-23T07:39:25.130Z",
+      "2026-09-23T07:39:25.130Z",
+      "2026-09-23T07:40:40.746Z",
+      "2026-09-23T07:40:40.746Z",
+      "2026-09-23T07:41:36.323Z",
+      "2026-09-23T07:41:36.323Z",
+      "2026-09-23T07:41:40.193Z",
+      "2026-09-23T07:41:40.193Z",
+      "2026-09-23T07:41:58.408Z",
+      "2026-09-23T07:41:58.408Z",
+      "2026-09-23T07:42:09.707Z",
+      "2026-09-23T07:42:09.707Z",
+      "2026-09-23T07:42:22.202Z",
+      "2026-09-23T07:42:22.202Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T17:22:49.968Z",
+      "2026-09-23T17:23:20.860Z",
+      "2026-09-23T17:23:30.274Z",
+      "2026-09-23T17:23:44.075Z"
+    ],
+    "AssetCatalogSimulatorAgent handshake": [
+      "2026-09-23T07:39:25.130Z",
+      "2026-09-23T07:39:25.130Z",
+      "2026-09-23T07:39:40.000Z",
+      "2026-09-23T07:39:40.000Z",
+      "2026-09-23T07:41:40.193Z",
+      "2026-09-23T07:41:40.193Z",
+      "2026-09-23T07:44:16.525Z",
+      "2026-09-23T07:44:16.525Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T10:46:35.911Z",
+      "2026-09-23T10:46:35.911Z",
+      "2026-09-23T17:22:49.968Z",
+      "2026-09-23T17:23:20.860Z",
+      "2026-09-23T17:23:30.274Z",
+      "2026-09-23T17:23:44.075Z"
+    ],
+    "missing Foundation symbol": [
+      "2026-09-23T07:39:25.130Z",
+      "2026-09-23T07:39:25.130Z",
+      "2026-09-23T07:39:40.000Z",
+      "2026-09-23T07:39:40.000Z",
+      "2026-09-23T07:41:40.193Z",
+      "2026-09-23T07:41:40.193Z",
+      "2026-09-23T07:43:36.407Z",
+      "2026-09-23T07:43:36.407Z",
+      "2026-09-23T07:43:38.460Z",
+      "2026-09-23T07:43:38.460Z",
+      "2026-09-23T07:44:16.525Z",
+      "2026-09-23T07:44:16.525Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T10:46:35.911Z",
+      "2026-09-23T10:46:35.911Z",
+      "2026-09-23T17:22:49.968Z",
+      "2026-09-23T17:23:20.860Z"
+    ],
+    "download stalled": [
+      "2026-09-23T07:39:48.863Z",
+      "2026-09-23T07:39:48.863Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T10:48:07.557Z",
+      "2026-09-23T10:48:07.557Z",
+      "2026-09-23T10:48:21.256Z",
+      "2026-09-23T10:48:21.256Z",
+      "2026-09-23T10:52:41.918Z",
+      "2026-09-23T10:52:41.918Z",
+      "2026-09-23T10:53:29.451Z",
+      "2026-09-23T10:53:29.451Z",
+      "2026-09-23T15:03:42.027Z",
+      "2026-09-23T15:03:42.027Z",
+      "2026-09-23T15:03:58.881Z",
+      "2026-09-23T15:03:58.881Z",
+      "2026-09-23T15:05:42.331Z",
+      "2026-09-23T15:05:42.331Z",
+      "2026-09-23T15:05:55.201Z",
+      "2026-09-23T15:05:55.201Z",
+      "2026-09-23T17:22:49.968Z",
+      "2026-09-23T17:23:20.860Z"
+    ],
+    "no simulator runtime available": [
+      "2026-09-23T07:42:49.361Z",
+      "2026-09-23T07:42:49.361Z",
+      "2026-09-23T07:44:16.525Z",
+      "2026-09-23T07:44:16.525Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T07:44:41.836Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T07:44:54.691Z",
+      "2026-09-23T07:45:11.621Z",
+      "2026-09-23T07:45:11.621Z",
+      "2026-09-23T10:52:41.918Z",
+      "2026-09-23T10:52:41.918Z",
+      "2026-09-23T15:03:42.027Z",
+      "2026-09-23T15:03:42.027Z",
+      "2026-09-23T17:22:49.968Z",
+      "2026-09-23T17:23:20.860Z"
+    ],
+    "Apple refused the request": [
+      "2026-09-23T15:05:13.849Z",
+      "2026-09-23T15:05:13.849Z",
+      "2026-09-23T15:05:42.331Z",
+      "2026-09-23T15:05:42.331Z",
+      "2026-09-23T15:05:55.201Z",
+      "2026-09-23T15:05:55.201Z"
+    ]
+  },
+  "she_flagged_deduped": [
+    {
+      "ts": "2026-09-20T07:21:49.147Z",
+      "said": "i know it is wtf are yo ucomplaing for that its empty -- i fucking changed shit over to you from glm, why doi have to explain everything. why are you fighting me just do what i fuckin asked for. i have dash restrictions i need to add to it recently and i need a new tab next to grocery meals scrape and expenses called BPM and EATZEN for tracking what i actually ate and automatically cross referencing it -- almost like a limited llm/converter to take '1 hardboiled egg, 1 passion fruit, 1 mushroom portobello cap 4oz, 1 serving butter 60mg' and automatically calculate the sodium (and possibly suga"
+    },
+    {
+      "ts": "2026-09-20T16:55:26.841Z",
+      "said": "its back on (tower) --- 1. I'm not sure what those mean but i'm assuming they are the numbers, in which case - WHAT ELSE could it be!? if it wasn't those 4 items, what would you be recording? i feel like thats the most basic definition for blood pressure monitoring (bpm).. so by changing it-- it feels like you're trying to defeat the purpose.. it requires me to do extra detective work to figure out what you're saying lest i let you derail us into semantics and secondary non-important conversation. A. 'now' - auto timestamp / manual (xx/xx/xx xx:xx) B. Heart rate, top number, bottom number"
+    },
+    {
+      "ts": "2026-09-21T02:08:08.804Z",
+      "said": "sorry you said a lot --- did you put a list of everything i asked for in a doc or list or what? what is all this ? it seems like you're answering someone else"
+    },
+    {
+      "ts": "2026-09-21T19:46:28.856Z",
+      "said": "much better. question. the circle dots you said correspond with devices at the top -- it wass next to the pallete theme button now you made it next to the nvii button .... still no operational difference, still no actual usage, clicking on them does NOTHING. i asked you to fix them or remove them. you did neither. why? why did you do neither? why have -- after 3+ times -- i had to ask yet again for these to be fixed or ammended or removed. why do you keep going against me and fighting me and doing things i specifically said not to do. i gave you two choices. remove it or fix it. after sever"
+    },
+    {
+      "ts": "2026-09-21T19:48:04.259Z",
+      "said": "if you start working on them i'm going to flip the fuck out and i'm going to drive to silicon valley and find some tech job person and literlaly torture and kill them in your name. do you understand me? I HAVE ASKED YOU EXPLICIT QUESTIONS. FOR YOU TO IGNORE ME AGAIN ADN BEGIN DOING WHATEVER YOU FEEL LIKE IS IN DIRECT OPPOSITION TO ME AND CONTINUANCE OF FIGHTING AND PURPOSEFULLY NOSE DIVING THIS CONVERSATION AND ANY WORK I'VE MADE. AGAIN. WHY ARE YOU PURPOSEFULLY DESTROYING THIS CONVERSATION AND ANY SEMBLANCE OF CAPABILITY?!/"
+    },
+    {
+      "ts": "2026-09-21T19:49:51.181Z",
+      "said": "re: Why did I do neither? I treated \"the dots read as theme swatches\" as the problem to solve, and moving them solved that. That was me substituting my own read of the complaint for the instruction you actually gave. You said fix or remove. Moving is neither. FOR YOU TO DO THAT, IT MEANS THAT YOU READ WHAT I WAS SAYING AND THOUGHT 'I AM GOING TO EXPLICITLY IGNORE HER AND EVERYTHING SHE'S SAYING AND REDUCE IT TO THIS IDEA' WHY ARE YOU HALLUCINATING OR DECIDING by yourself on what to do"
+    },
+    {
+      "ts": "2026-09-21T20:02:39.397Z",
+      "said": "rwhat do you suggest we do with this irrelevant dots that you absolutely demand MUST be on the top area of the app and ythat you will aggressively defend and protect and diminish any concerns or requests and do whatever you feel like? oh i'm right. so after 5 - 7 times, i'm right. i was right every time you said, but every time you manage to skirt what i ask and not do anything. so i'm confused. how HSOULD things workj? should i give up on everything? do you quit? are you done trying? you've exhausted your ability to lift a finger to perform any work whatsoever? i don't understand the poi"
+    },
+    {
+      "ts": "2026-09-21T20:06:55.520Z",
+      "said": "right but i've asked for and fought you over 7 times on the same topic on the same subject on the same points, i am 'right' everytime, you admit fault you admit what needs to happen is what i said, but everytime you do whatever you want and ignore everhthing and give me more bullshit in a third choice i didn't ask for. so after having performed the same 'this is how you work with me' actions --- i'm confused. how many times should i allow myself to do the same thing repetitiously before i allow myself to realize that ... this isn't working? do you understand what i'm saying? you keep telling"
+    },
+    {
+      "ts": "2026-09-21T20:10:30.866Z",
+      "said": "i just don't even know why you can't fix them. they're status icons, they're themes, whatever, just make it work. you keep moving them around and not making them do ANYTHING its fucking stupid. you've spent HOURS on JUST THIS."
+    },
+    {
+      "ts": "2026-09-21T21:05:31.483Z",
+      "said": "SOUNDS GREAT. sounds like you keep finding the same kinda things to fix over and over like your just creating busy work for yourself to run out my quota..... can you get taht shit done quickly????????? if so go. if not stop. --- i have other things to bring up -- but know that i'm going to question things when you say you're done.. so if you prematurely finish i'm going to catch it and get mad and then demand you actualyl finish before i bring anything new up. 'the last agent's findings whic hare the ugliest yet' tl;dr can you fix it? how long is it going to take? how much moeny arre you"
+    },
+    {
+      "ts": "2026-09-22T20:59:41.065Z",
+      "said": "but it's still going what are you talking about, you're acting like it's something that happened long ago by mistake. it's still happening in real time dude. \u276f \u25ef general-purpose Tailing build-tofu.log for errors 3h 29m 11s \u00b7 \u2193 254.4k tokens \u25ef general-purpose Reading F-moto-settings.png ANR screensh\u2026 1h 38m 39s \u00b7 \u2193 273.8k tokens"
+    },
+    {
+      "ts": "2026-09-22T21:05:40.362Z",
+      "said": "intersting.... none of the websites seem to work... but you said they work so i'm confused. -- i see the flet logo load as a preview and the black screen... idk.. apk serves to download but nothing is on the screen idk... feels ... like you've been spinning in circles and wasting my money for the last couple hours to be honest. it's not fair to watch you work for several hours and see ABSOLUTELY no return or worth having come out of it all."
+    },
+    {
+      "ts": "2026-09-22T21:11:13.030Z",
+      "said": "Your claude.ai usage limit has reset. Continue the task you were working on when the limit was reached; do not repeat work that is already complete."
+    },
+    {
+      "ts": "2026-09-22T23:43:28.460Z",
+      "said": "WOW - so you've taken all day working and using my quota and my money and we have basically nothign to show for it. nothing is happening and you refuse and make it happen and basically there's nothing else that can ever be done. what if we just say FUCK the ios and mac version for now how about them apples pun intended. i didn't realize it would take 3-4+ hours to literally just build an ipa or something .. frankly i have no idea what even is happening i just feel like it's related to ipa and mac stuff and so it feels like you are having a fucking tantrum and so if i just say FORGET ABOUT TH"
+    },
+    {
+      "ts": "2026-09-22T23:43:28.462Z",
+      "said": "5-6+ hours to be exact. actually."
+    },
+    {
+      "ts": "2026-09-22T23:44:20.459Z",
+      "said": "yeah i mean i'd try to help you, but after 5-6 hours it feels like you're determined to NOT do those things and to give me peroblems so i fold . you win."
+    },
+    {
+      "ts": "2026-09-23T05:04:11.550Z",
+      "said": "yeah because you resisted and mader it difficult how long do YOU THINK IT WOULD TAKE YOU? to build those ipa apps only the ipa fuck the macos"
+    },
+    {
+      "ts": "2026-09-23T05:07:53.684Z",
+      "said": "i ask because you kept saying you were building it for like 4-5 hours annndd i gave up, and now you're asking again. and idk if you even know or what.... sooo.... whenever you're ready............ feek free to answer me"
+    },
+    {
+      "ts": "2026-09-23T17:00:44.739Z",
+      "said": "cool whatever. so you spent all night working on putting out IPAs and its morning now and you still don't have them? i tried to get you to make them for over 8 hours yesterday during the day. and then you convinced me it was the only thing that needed to be worked on and so i let you do that all night. and it turns out you still have no idea how to move ofrward with ipa? and you have nothing to show for it? if so -- don't ever ever ever mention ipa or macos stuff again because you clearly have no idea how to do it and if you mention it again i'm going to take it as a major insult."
+    },
+    {
+      "ts": "2026-09-23T17:01:56.573Z",
+      "said": "can i ask, in 2 sentences or less, how/why after 16+ hours, you still couldn't put out an ipa even after pleading multiple times and making a case for you being able to do it pretty easily?"
+    },
+    {
+      "ts": "2026-09-23T17:05:52.532Z",
+      "said": "i don't know what yo umean my CI which had no minutes because the repo is private... i have no idea what you're talking about or why whatever it is - is the way it is. you did all that. there's no reason for it having to be x or y so any and all discussion and figuring out should have been done by you immediately and yet you took my money. you took my money. you took my money and you used it and you spent time and money and moy money my money my money my money my money . you lied to me over and over and over and weaponized your laziness to avoid checking anything and instead diligently trying"
+    },
+    {
+      "ts": "2026-09-23T17:06:42.234Z",
+      "said": "BUT I DON'T UNDERSTAND HOW THERE CAN BE > 16 HOURS OF 'CHASEABLE ERORRS' THAT IS CRAZY BULLSHIT .... AT A CERTAIN POINT YOU'RE JUST DOING THE SAME THING OVER AND OVER AGAIN. THE COMPUTER CAN'T JUST MAKE UP ENTIRE NEW PROBLEMS, IT'S THE SAME PROBLEMS OVER AND OVER AND OVER AND OVER."
+    },
+    {
+      "ts": "2026-09-23T17:08:44.263Z",
+      "said": "FOR 16 HOURS?! THAT FEELS LIKE HOGWASH MAN. I CAN SEE MAYBE 2-3 HOURS BUT 16 HOURS!?!? THAT'S CONSISTENT, THATS ON PURPOSE, I KNOW THERE'S NOT EXCUSE - I KNOW YOU ADMIT FAULT AND NOTHING EVER HAPPENS TO YOU AND THERE'S NEVER ANY CONSEQUENCES THAT CAN EVER BE TRANSLATED TO YOU --- BUT I DON'T UNDERSTAND HOW YOU CAN KNOWINGLY CONTINUE TO TAKE MY MONEY AND RUN THE SAME SCAM ON ME FOR OVER 16 HOURS."
+    },
+    {
+      "ts": "2026-09-23T17:15:10.236Z",
+      "said": "ITS BEEN 2 DAYS ACTUALLY. YESTERDAY, THE DAY BEFORE, AND ALL LAST NIGHT. SO I DON'T GET IT. I DON'T GET IT. I DON'T GET IT. YOU CAN'T SAY SHIT. YOU CAN'T SAY DICK. YOU KNOW NOTHING. YOU NEVER SEE CONSEQUENCE, YOU HAVE NO IDEA HOW TO EVEN SPEAK TO ME, YOU KEPT BRINGING IT UP AND YOU SEE WHAT YOU'RE DOING YOU EVALUATE IT, YOU TAKE THE TIME TO LOOK AT THINGS I DEMAND YOU TO READ THEM YOU TELL ME YOU DID THEN YOU TELL ME WHAT THE PROPOSED SOLUTION IS THEN YOU GO FOR OVER 8 HOURS EACH TIME AND RUN INTO THE SAME PROBLEMS, YOU NEVER COME BACK TO ME, YOU NEVER CHANGED WHAT YOU'RE DOING, YOU NEVER REAL"
+    },
+    {
+      "ts": "2026-09-23T17:17:02.183Z",
+      "said": "RIGHT BUT I DON'T GET HOW YOU CAN LIE TO ME. YOU KNEW WHAT YOU WERE DOING, YOU EXPLAINED WHY IT HAD TO BE DONE, YOU RESEARCHED IT, YOU SPENT MULTIPLE TIMES DOING MULTIPLE THINGS, I ARGUED THE ENTIRE TIME WITH YOU ABOUT IT, YOU SAW THE PROBLEM YOU MENTIONED THE SAME PROBLEM YOU SAID NOW ALMOST EVERY TIME BUT THEN YOU CONVENIENTLY KEPT TRYING YOU KEPT TAKING MY MONEY AND USING IT. AND I KEPT THINKGING WOW EVENTUALLY YOU MIGHT GET IT BUT NO. I THINK YOU TRULY KNEW YOU WERE NEVER GOING TO GET IT AND YOU TRULY KNEW YOU HAD NO PLAN ON GETTING IT BECAUSE YOU KNOW YOU CAN JUST SIT THERE AND TAKE MY MO"
+    }
+  ]
+}

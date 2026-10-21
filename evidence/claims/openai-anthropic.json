@@ -1,0 +1,314 @@
+{
+  "collected_by": "claude-agent (evidence collection subagent)",
+  "collected_at": "2026-09-23T00:00:00Z",
+  "claims": [
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Max (from $100/month)",
+      "claim_verbatim": "Choose 5x or 20x more usage than Pro*",
+      "url": "https://claude.com/pricing",
+      "page_title": "Plans & Pricing | Claude by Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Bullet feature under the Max plan card on the live pricing page, describing what Max adds on top of Pro."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Max (from $100/month)",
+      "claim_verbatim": "Higher output limits for all tasks",
+      "url": "https://claude.com/pricing",
+      "page_title": "Plans & Pricing | Claude by Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Bullet feature under the Max plan card on the live pricing page."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Max (from $100/month)",
+      "claim_verbatim": "Priority access at high traffic times",
+      "url": "https://claude.com/pricing",
+      "page_title": "Plans & Pricing | Claude by Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Bullet feature under the Max plan card on the live pricing page."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Max plan (from $100/month)",
+      "claim_verbatim": "The Max plan is built for people who work with Claude throughout the day and want longer, uninterrupted sessions. You get everything in Pro, plus more usage: choose from 5x or 20x the usage of Pro per 5-hour session. Max also gives you higher output limits.",
+      "url": "https://claude.com/pricing",
+      "page_title": "Plans & Pricing | Claude by Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "FAQ section, answer to \"How is Claude Max different from Pro?\""
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Opus 5.5 (Claude Platform / API model tier, paid usage)",
+      "claim_verbatim": "Daily driver for agentic coding and enterprise work",
+      "url": "https://claude.com/pricing",
+      "page_title": "Plans & Pricing | Claude by Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Model tagline directly under \"Opus 5.5\" in the Claude Platform model-pricing table."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Fable 5.1 (Claude Platform / API model tier, paid usage)",
+      "claim_verbatim": "Next generation intelligence for long-running agents",
+      "url": "https://claude.com/pricing",
+      "page_title": "Plans & Pricing | Claude by Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Model tagline directly under \"Fable 5.1\" in the Claude Platform model-pricing table."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Code (included in Pro/Max/Team/Enterprise plans)",
+      "claim_verbatim": "Claude Code builds the plan, asks clarifying questions, and handles work that runs for hours or days.",
+      "url": "https://claude.com/product/claude-code",
+      "page_title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Under the \"What Claude Code can take on\" section of the live Claude Code product page."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Code (included in Pro/Max/Team/Enterprise plans)",
+      "claim_verbatim": "You set the direction as the architect and orchestrator, and Claude Code does the work. Describe what you want and it plans, writes code, runs tests, and opens pull requests. It can work on several tasks at once, and surface decisions you need to make for it to keep going.",
+      "url": "https://claude.com/product/claude-code",
+      "page_title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "FAQ answer to \"What kind of tasks can Claude Code handle?\""
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Code (included in Pro/Max/Team/Enterprise plans)",
+      "claim_verbatim": "Claude Code can handle routine work like bug fixes and testing, and larger jobs like refactors and new features that are long-running and asynchronous.",
+      "url": "https://claude.com/product/claude-code",
+      "page_title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "FAQ answer to \"What kind of tasks can Claude Code handle?\", first sentence."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Code, Pro/Max/Team plans",
+      "claim_verbatim": "Claude Code now runs in auto mode by default on Pro, Max, and Team plans, so it can work longer while still catching risky commands.",
+      "url": "https://claude.com/product/claude-code",
+      "page_title": "Claude Code by Anthropic | AI Coding Agent, Terminal, IDE",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Product update banner/section on the live Claude Code product page."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Opus 4.5 (Claude apps: Pro/Max/Team; API)",
+      "claim_verbatim": "It’s intelligent, efficient, and the best model in the world for coding, agents, and computer use.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "page_title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-24",
+      "context": "Second sentence of the opening paragraph of the launch announcement blog post."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Opus 4.5 (Claude Developer Platform)",
+      "claim_verbatim": "Set to a medium effort level, Opus 4.5 matches Sonnet 4.5’s best score on SWE-bench Verified, but uses 76% fewer output tokens. At its highest effort level, Opus 4.5 exceeds Sonnet 4.5 performance by 4.3 percentage points—while using 48% fewer tokens.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "page_title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-24",
+      "context": "\"New on the Claude Developer Platform\" section, describing the new effort parameter."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Opus 4.5",
+      "claim_verbatim": "We give prospective performance engineering candidates a notoriously difficult take-home exam. We also test new models on this exam as an internal benchmark. Within our prescribed 2-hour time limit, Claude Opus 4.5 scored higher than any human candidate ever",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "page_title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-24",
+      "context": "\"Evaluating Claude Opus 4.5\" section; the sentence carries a footnote marker \"1\" on the page."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Opus 4.5",
+      "claim_verbatim": "Opus 4.5 stays on track over the long haul earning 29% more than Sonnet 4.5 on Vending-Bench.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "page_title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-24",
+      "context": "Benchmark-result caption in the capabilities section listing SWE-bench Multilingual, Aider Polyglot, BrowseComp-Plus, and Vending-Bench results."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Opus 4.5",
+      "claim_verbatim": "Opus 4.5 is harder to trick with prompt injection than any other frontier model in the industry:",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "page_title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-11-24",
+      "context": "\"A step forward on safety\" section, introducing a prompt-injection robustness benchmark chart credited to Gray Swan."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Pro (from $200/month, priced on page as \"From\")",
+      "claim_verbatim": "Maximize your productivity",
+      "url": "https://openai.com/chatgpt/pricing/",
+      "page_title": "Pricing | ChatGPT",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Tagline directly under the \"Pro\" plan-card heading. Accessed via Wayback Machine snapshot (capture timestamp 2026-09-05) because direct requests to the live URL returned HTTP 403 to both the WebFetch tool and curl with browser and Googlebot user agents."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Pro (from $200/month)",
+      "claim_verbatim": "5x or 20x more usage",
+      "url": "https://openai.com/chatgpt/pricing/",
+      "page_title": "Pricing | ChatGPT",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "First bullet under \"Everything in Plus and:\" on the Pro plan card. Accessed via Wayback Machine snapshot (2026-09-05); see note on access method above."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Plus",
+      "claim_verbatim": "Do more with advanced intelligence",
+      "url": "https://openai.com/chatgpt/pricing/",
+      "page_title": "Pricing | ChatGPT",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Tagline directly under the \"Plus\" plan-card heading. Accessed via Wayback Machine snapshot (2026-09-05); see note above."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Pro ($200/month plan)",
+      "claim_verbatim": "ChatGPT Pro provides access to a version of our most intelligent model that thinks longer for the most reliable responses. In evaluations from external expert testers, o1 pro mode produces more reliably accurate and comprehensive responses, especially in areas like data science, programming, and case law analysis.",
+      "url": "https://openai.com/index/introducing-chatgpt-pro/",
+      "page_title": "Introducing ChatGPT Pro | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2024-12-05",
+      "context": "Launch blog post, under the heading \"More thinking power for more difficult problems.\" Blog/announcement, not the current live pricing page."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Pro ($200/month plan)",
+      "claim_verbatim": "ChatGPT Pro provides a way for researchers, engineers, and other individuals who use research-grade intelligence daily to accelerate their productivity and be at the cutting edge of advancements in AI.",
+      "url": "https://openai.com/index/introducing-chatgpt-pro/",
+      "page_title": "Introducing ChatGPT Pro | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2024-12-05",
+      "context": "Launch blog post, closing sentence of the opening paragraph introducing the $200/month plan."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "Codex (ChatGPT Pro, Business, Enterprise at launch; later Plus)",
+      "claim_verbatim": "Today we’re launching a research preview of Codex: a cloud-based software engineering agent that can work on many tasks in parallel.",
+      "url": "https://openai.com/index/introducing-codex/",
+      "page_title": "Introducing Codex | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-05-16",
+      "context": "Opening sentence of the launch blog post body. The page itself carries a banner stating \"This launch post is outdated,\" pointing to current Codex/ChatGPT Work pages."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "Codex",
+      "claim_verbatim": "By reducing context-switching and surfacing forgotten to-dos, Codex helps engineers ship faster and stay focused on what matters most.",
+      "url": "https://openai.com/index/introducing-codex/",
+      "page_title": "Introducing Codex | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-05-16",
+      "context": "\"Early use cases\" section describing internal OpenAI engineering use of Codex."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT agent (\"agent mode\"), Pro/Plus/Team at launch",
+      "claim_verbatim": "ChatGPT can now do work for you using its own computer, handling complex tasks from start to finish.",
+      "url": "https://openai.com/index/introducing-chatgpt-agent/",
+      "page_title": "Introducing ChatGPT agent: bridging research and action | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-07-17",
+      "context": "Opening sentence of the launch blog post body. Page carries a banner stating \"This launch post is outdated,\" pointing to current Workspace agents/ChatGPT Work pages."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT agent",
+      "claim_verbatim": "Starting today, Pro, Plus, and Team users can activate ChatGPT’s new agentic capabilities directly through the tools dropdown from the composer by selecting ‘agent mode’ at any point in any conversation.",
+      "url": "https://openai.com/index/introducing-chatgpt-agent/",
+      "page_title": "Introducing ChatGPT agent: bridging research and action | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-07-17",
+      "context": "End of the introductory section, stating which paid tiers get agent mode at launch."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT agent",
+      "claim_verbatim": "On Humanity’s Last Exam*, an evaluation that measures AI’s performance across a broad range of subjects on expert-level questions, the model powering ChatGPT agent scores a new pass@1 SOTA at 41.6.",
+      "url": "https://openai.com/index/introducing-chatgpt-agent/",
+      "page_title": "Introducing ChatGPT agent: bridging research and action | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-07-17",
+      "context": "\"Broadening real-world utility\" section, first benchmark cited (Humanity's Last Exam is a hyperlinked term within the sentence)."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT agent",
+      "claim_verbatim": "On SpreadsheetBench, which evaluates models on their ability to edit spreadsheets derived from real-world scenarios, ChatGPT agent outperforms existing models by a significant margin. When given the ability to edit spreadsheets directly, ChatGPT agent scores even higher with 45.5%, compared to Copilot in Excel’s 20.0%.",
+      "url": "https://openai.com/index/introducing-chatgpt-agent/",
+      "page_title": "Introducing ChatGPT agent: bridging research and action | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-07-17",
+      "context": "\"Broadening real-world utility\" section, SpreadsheetBench comparison against Microsoft Copilot in Excel."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT agent",
+      "claim_verbatim": "We also evaluated ChatGPT agent on BrowseComp, a benchmark we published earlier this year that measures browsing agents’ ability to locate hard-to-find information on the web. The model set a new SOTA with 68.9%, 17.4 percentage points higher than deep research.",
+      "url": "https://openai.com/index/introducing-chatgpt-agent/",
+      "page_title": "Introducing ChatGPT agent: bridging research and action | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": "2025-07-17",
+      "context": "\"Broadening real-world utility\" section, BrowseComp benchmark comparison against OpenAI's own deep research."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Work / Codex, included with ChatGPT Business and Enterprise",
+      "claim_verbatim": "Codex in ChatGPT accelerates coding, debugging, documentation, and code reviews so engineering teams can ship faster.",
+      "url": "https://openai.com/business/",
+      "page_title": "AI Platforms to Accelerate your Business | OpenAI | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "\"Engineering\" use-case tile on the Business product page. Accessed via Wayback Machine snapshot (capture timestamp 2026-08-31) because the live URL returned HTTP 403 to WebFetch and curl."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Work, included with ChatGPT Business and Enterprise plans",
+      "claim_verbatim": "Automate tasks in the background",
+      "url": "https://openai.com/business/",
+      "page_title": "AI Platforms to Accelerate your Business | OpenAI | OpenAI",
+      "date_accessed": "2026-09-23",
+      "date_published": null,
+      "context": "Bullet feature under \"Introducing ChatGPT Work,\" explicitly captioned \"Included with ChatGPT Business and Enterprise plans.\" Accessed via Wayback Machine snapshot (2026-08-31); see note above."
+    }
+  ],
+  "unverified": [
+    {
+      "url": "https://openai.com/codex/",
+      "reason": "Live page returned HTTP 403 to the WebFetch tool and to curl with both a standard Chrome user agent and a Googlebot user agent (Cloudflare bot-protection block). No Wayback Machine snapshot exists for this exact URL (archive.org API returned an empty archived_snapshots object), so no claim from the current Codex product page could be verbatim-verified."
+    },
+    {
+      "url": "https://openai.com/chatgpt/agent/",
+      "reason": "Live page could not be fetched (blocked, same Cloudflare 403 pattern as other openai.com pages) and no Wayback Machine snapshot was found for this exact URL. Substituted the 2025-07-17 launch blog (introducing-chatgpt-agent) as the nearest verifiable source, but current live product-page copy for \"agent mode\" remains unverified."
+    },
+    {
+      "url": "https://web.archive.org/web/2026/https://openai.com/chatgpt/pricing/",
+      "reason": "The WebFetch tool explicitly refused this host (\"Claude Code is unable to fetch from web.archive.org\"). Worked around by fetching Wayback Machine snapshots directly via curl instead, which succeeded for the specific timestamped snapshot URLs used elsewhere in this file."
+    },
+    {
+      "url": "https://claude.com/max",
+      "reason": "This URL 301-redirects to https://claude.com/pricing (confirmed identical byte size and title on fetch), so it is not a distinct source of claims beyond what is already recorded from the pricing page."
+    }
+  ]
+}
